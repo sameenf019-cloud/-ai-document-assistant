@@ -44,7 +44,7 @@ except ImportError:
 # Configuration
 # ---------------------------------------------------------------------------
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
-GROQ_MODEL_NAME = "llama-3.3-70b-versatile"
+GROQ_MODEL_NAME = "openai/gpt-oss-120b"
 CHUNK_SIZE = 800        # characters per chunk
 CHUNK_OVERLAP = 150     # overlap between consecutive chunks
 TOP_K = 5               # chunks retrieved per question
